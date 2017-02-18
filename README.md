@@ -1,5 +1,5 @@
 # RedisClient
-Prolog library that allows DALI MAS agents to send messages to Redis.
+Prolog library that allows DALI MAS agents to send messages to [Redis](http://redis.io).
 ##Configuration##
 You can modify these lines to configure redis_client.pl:
 - :- assert(connect_conf('127.0.0.1':6379, 'MAS_DATA')). -> '127.0.0.1':6379 and 'MAS_DATA' are respectively the port and the Redis channel the agents send messages to (you can change both).
